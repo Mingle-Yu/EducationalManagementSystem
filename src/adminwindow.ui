@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>AdminWindow</class>
+ <widget class="QMainWindow" name="AdminWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>教务管理系统    管理员端</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0">
+     <widget class="QTabWidget" name="tabWidget">
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="tab">
+       <attribute name="title">
+        <string>Tab 1</string>
+       </attribute>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <widget class="QToolBar" name="toolBar">
+   <property name="windowTitle">
+    <string>toolBar</string>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="personalAccountSettings"/>
+   <addaction name="teacherManagement"/>
+   <addaction name="courseManagement"/>
+   <addaction name="studentManagement"/>
+   <addaction name="courseSelectionManagement"/>
+   <addaction name="teachingEvaluationManagement"/>
+   <addaction name="gradeManagement"/>
+   <addaction name="announcementManagement"/>
+  </widget>
+  <action name="personalAccountSettings">
+   <property name="text">
+    <string>个人账户设置</string>
+   </property>
+  </action>
+  <action name="teacherManagement">
+   <property name="text">
+    <string>教师管理</string>
+   </property>
+  </action>
+  <action name="studentManagement">
+   <property name="text">
+    <string>学生管理</string>
+   </property>
+  </action>
+  <action name="courseManagement">
+   <property name="text">
+    <string>课程管理</string>
+   </property>
+  </action>
+  <action name="teachingEvaluationManagement">
+   <property name="text">
+    <string>评教管理</string>
+   </property>
+  </action>
+  <action name="courseSelectionManagement">
+   <property name="text">
+    <string>选课管理</string>
+   </property>
+  </action>
+  <action name="gradeManagement">
+   <property name="text">
+    <string>成绩管理</string>
+   </property>
+  </action>
+  <action name="announcementManagement">
+   <property name="text">
+    <string>公告管理</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

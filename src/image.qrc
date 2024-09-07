@@ -1,0 +1,24 @@
+<RCC>
+    <qresource prefix="/Image">
+        <file>my photos/780.jpg</file>
+        <file>my photos/980.jpg</file>
+        <file>my photos/add.png</file>
+        <file>my photos/begin.png</file>
+        <file>my photos/book.png</file>
+        <file>my photos/depart.png</file>
+        <file>my photos/exist.png</file>
+        <file>my photos/hint.png</file>
+        <file>my photos/home.png</file>
+        <file>my photos/load.png</file>
+        <file>my photos/login.jpg</file>
+        <file>my photos/login.png</file>
+        <file>my photos/main.jpg</file>
+        <file>my photos/out.png</file>
+        <file>my photos/refresh.png</file>
+        <file>my photos/save.png</file>
+        <file>my photos/search.png</file>
+        <file>my photos/setting.png</file>
+        <file>my photos/warning.png</file>
+        <file>my photos/way.png</file>
+    </qresource>
+</RCC>
