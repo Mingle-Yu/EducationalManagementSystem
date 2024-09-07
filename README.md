@@ -1,0 +1,2 @@
+# EducationalManagementSystem
+用Qt+MySQL实现的教务管理系统
